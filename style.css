@@ -131,11 +131,29 @@ h2{
     width: 100%;
 }
 
+/* /Main */
+
+/* Footer */
 #info{
     background-color: var(--elettricblue);
 }
 
-/* /Main */
+#info img{
+    width: 100px;
+}
 
-/* Footer */
+#info ul{
+    list-style-type: none;
+}
+
+#info ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-globe{
+    color: white;
+}
+
+
 /* /Footer */
