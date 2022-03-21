@@ -5,15 +5,13 @@
     --deepgray: #303030;
     --lightgray: #BEBCBB;
     --orange: #CD3D0F;
+    --lightwithe: #D9DADC;
 }
 
 h2{
     font-size: 2.5rem;
 }
 
-p .fa-globe{
-    font-size: 25px;
- }
 /* /General */
 
 /* Header */
@@ -34,21 +32,26 @@ p .fa-globe{
 
 /* Main */
 #jumbotron{
-    height: 600px;
+    padding: 17em 0 5em ;
     margin-top: 120px;
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
 }
 
+#jumbotron img{
+    width: 75%;
+}
+
+#jumbotron .btn{
+    background-color: var(--orange);
+    border-radius: 20px;
+    color: white;
+}
+
 #game-cards img{
     width: 100%;
     border-radius: 20px;
-}
-
-#game-cards img:hover{
-    border: 2px solid var(--elettricblue);
-    padding: 2px;
 }
 
 #playstation5 img{
@@ -65,11 +68,21 @@ p .fa-globe{
 }
 
 #takestwo{
-    height: 600px;
+    padding: 17em 0 5em;
     margin-top: 80px;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#takestwo img{
+    width: 50%;
+}
+
+#takestwo .btn{
+    background-color: var(--orange);
+    border-radius: 20px;
+    color: white;
 }
 
 #nuove-uscite{
@@ -92,7 +105,12 @@ p .fa-globe{
 
 #playstation-plus{
     background-color: var(--lightgray);
-    height: 300px;
+}
+
+#playstation-plus .btn{
+    background-color: var(--lightwithe);
+    color: var(--elettricblue);
+    border-radius: 20px;
 }
 
 #playstation-store img{
@@ -101,7 +119,12 @@ p .fa-globe{
 
 #playstation-now{
     background-color: var(--darkblue);
-    height: 300px;
+}
+
+#playstation-now .btn{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
 }
 
 #media img{
