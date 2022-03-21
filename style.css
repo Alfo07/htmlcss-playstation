@@ -20,13 +20,38 @@ h2{
     background-color: black;
 }
 
+#nav-bottom{
+    height: 80px;
+    background-color: white;
+}
+
 #nav-top img{
     width: 90px;
 }
 
-#nav-bottom{
-    height: 80px;
-    background-color: white;
+#nav-bottom a{
+    color: black;
+}
+
+#nav-bottom i{
+    font-size: 12px;
+}
+
+#nav-bottom ul li img{
+    width: 55px;
+}
+
+#play-ico{
+    width: 70px;
+}
+
+li a.show i.fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+#nav-bottom .btn{
+    background-color: var(--deepgray);
+    border-radius: 20px;
 }
 /* /Header */
 
